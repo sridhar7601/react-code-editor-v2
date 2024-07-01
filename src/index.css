@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: xx-large;
+}
+
+p {
+  font-family: monospace;
+  font-size: large;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
